@@ -18,7 +18,7 @@ app.use('/api/endusers', endUserRouter)
 sequelize.sync().then(() => {
     console.log("db ready")
     app.listen(3000, ()=>{
-        console.log("server ready")
+        console.log("server ready at port 3000")
     })
 })
 
